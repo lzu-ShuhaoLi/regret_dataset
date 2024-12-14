@@ -1,0 +1,127 @@
+[2024-12-13 11:14:19,753] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-13 11:14:19,759] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-13 11:14:19,760] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-13 11:14:19,760] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Clearing GPU cache for all ranks
+--> Running with torch dist debug set to detail
+--> Model daryl149/llama-2-7b-chat-hf
+
+--> daryl149/llama-2-7b-chat-hf has 6738.415616 Million params
+
+trainable params: 4,194,304 || all params: 6,742,609,920 || trainable%: 0.0622
+trainable params: 4,194,304 || all params: 6,742,609,920 || trainable%: 0.0622
+trainable params: 4,194,304 || all params: 6,742,609,920 || trainable%: 0.0622
+bFloat16 enabled for mixed precision - using bfSixteen policy
+trainable params: 4,194,304 || all params: 6,742,609,920 || trainable%: 0.0622
+--> applying fsdp activation checkpointing...
+--> applying fsdp activation checkpointing...
+--> applying fsdp activation checkpointing...
+--> Training Set Length = 20833
+--> Validation Set Length = 2316
+--> applying fsdp activation checkpointing...
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 21 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 3 GB
+ eval_ppl=tensor(1.4484, device='cuda:0') eval_epoch_loss=tensor(0.3704, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 1 is 0.3704269826412201
+Epoch 1: train_perplexity=1.2510, train_epoch_loss=0.2240, epoch time 541.7464186539873s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3844, device='cuda:0') eval_epoch_loss=tensor(0.3253, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 2 is 0.32529395818710327
+Epoch 2: train_perplexity=1.1877, train_epoch_loss=0.1720, epoch time 540.5605155816302s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3676, device='cuda:0') eval_epoch_loss=tensor(0.3131, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 3 is 0.3130931854248047
+Epoch 3: train_perplexity=1.1721, train_epoch_loss=0.1588, epoch time 540.6314756600186s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3593, device='cuda:0') eval_epoch_loss=tensor(0.3070, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 4 is 0.3069833517074585
+Epoch 4: train_perplexity=1.1653, train_epoch_loss=0.1530, epoch time 540.4270990872756s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3546, device='cuda:0') eval_epoch_loss=tensor(0.3035, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 5 is 0.30348169803619385
+Epoch 5: train_perplexity=1.1612, train_epoch_loss=0.1495, epoch time 540.3277989020571s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3515, device='cuda:0') eval_epoch_loss=tensor(0.3012, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 6 is 0.3012438714504242
+Epoch 6: train_perplexity=1.1582, train_epoch_loss=0.1468, epoch time 540.4990287534893s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3496, device='cuda:0') eval_epoch_loss=tensor(0.2998, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 7 is 0.2998187839984894
+Epoch 7: train_perplexity=1.1558, train_epoch_loss=0.1448, epoch time 540.258516613394s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3482, device='cuda:0') eval_epoch_loss=tensor(0.2988, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 8 is 0.298798143863678
+Epoch 8: train_perplexity=1.1539, train_epoch_loss=0.1431, epoch time 540.5919471103698s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3473, device='cuda:0') eval_epoch_loss=tensor(0.2981, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 9 is 0.2980962097644806
+Epoch 9: train_perplexity=1.1523, train_epoch_loss=0.1418, epoch time 540.366499829106s
+Max CUDA memory allocated was 14 GB
+Max CUDA memory reserved was 20 GB
+Peak active CUDA memory was 15 GB
+Cuda Malloc retires : 0
+CPU Total Peak Memory consumed during the train (max): 4 GB
+ eval_ppl=tensor(1.3467, device='cuda:0') eval_epoch_loss=tensor(0.2977, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in PATH/to/save/PEFT/model directory
+best eval loss on epoch 10 is 0.2976633608341217
+Epoch 10: train_perplexity=1.1510, train_epoch_loss=0.1406, epoch time 540.250085904263s
+Key: avg_train_prep, Value: 1.170847773551941
+Key: avg_train_loss, Value: 0.157436802983284
+Key: avg_eval_prep, Value: 1.3657714128494263
+Key: avg_eval_loss, Value: 0.3114899694919586
+Key: avg_epoch_time, Value: 540.5659386095591
+Key: avg_checkpoint_time, Value: 0.9828497415408493
